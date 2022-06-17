@@ -1,3 +1,7 @@
+body{
+    background-color: antiquewhite;
+}
+
 .cell{
     width: 75px;
     height: 75px;
@@ -8,12 +12,15 @@
     cursor: pointer;
 }
 
+
+
 #gameCont{
     font-family: "Permanent Marker" , cursive ;
     text-align: center;
 }
 
 #cellCont{
+    
     display: grid;
     grid-template-columns: repeat(3 , auto);
     width: 225px;
